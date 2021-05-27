@@ -2,7 +2,9 @@ function resta(a,b){
  return a-b
 }
 
-module.exports={
-    resta
+function suma(a,b){
+    return a+b
 }
-
+module.exports={
+    resta,suma
+}
